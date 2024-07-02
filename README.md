@@ -6,22 +6,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Pure Palindrome - Palindrome
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The API that is intended to be built here should accept the strings and show whether the words in the content are pure palindrome or palindrome. The API should return an array of objects as JSON.
 
-## Build
+The UI should highlight pure palindrome rows (if is_pure_palindrome = true for row data) in green
+The user interface should highlight the palindrome but not highlight pure palindrome lines in yellow.
+If the text is not a palindrome, the UI lines should be highlighted in red.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+<table>
+  <tr>
+  <td> 
+<img src = "https://github.com/Bucerella/PalindromeWithAngular/blob/main/src/ss.jpg" width=1250>
+  </td>
+  </tr>
+</table>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
