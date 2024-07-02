@@ -1,0 +1,43 @@
+
+.pure-palindrome {
+  background-color: lightgreen;
+}
+
+.palindrome {
+  background-color: lightgoldenrodyellow;
+}
+
+.red{
+  background-color: red;
+}
+
+/* app.component.css */
+
+/* Tablo genel stili */
+.palindrome-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Tablo başlığı */
+.palindrome-table th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Tablo satırları */
+.palindrome-table td, .palindrome-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Satır arka plan renkleri */
+.palindrome-table .true {
+  background-color: lightgreen; /* Yeşil arka plan, pure palindrome */
+}
+
+.palindrome-table .false {
+  background-color: #ffffcc; /* Sarı arka plan, palindrome ama pure palindrome değil */
+}
